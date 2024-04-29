@@ -1,0 +1,48 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Recommend" "base:Ariplane_Fleet" "base:Flight_Date" "base:Age" "base:Origin" "base:PremiunEconomyClass" "http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A" "base:Destination" "base:Date" "base:Flight_Rate" "base:Review_Owner" "base:Title" "base:Year" "base:Couple_Leisure" "base:Description" "base:Country" "base:Yes" "base:Owner" "base:Customer" "base:Family_Leisure" "base:Ticket" "base:Traveller" "base:Leisure_Traveller" "base:Company" "base:City" "base:Review" "base:Business_Traveller" "base:Continent" "base:Nationality" "base:No" "base:Month" "base:EconomyClass" "base:Day" "base:BusinessClass" "base:SeatClass" "base:Airline_Company" "base:Airplane" "base:Flight" "base:Flight_Service" "base:FirstClass" "base:Customer_Review" "base:Person" "base:Address" "base:Professional_Review" "base:Customer_Flight_Review" "base:Solo_Leisure" "base:Vehicle" "base:Services" ; /*classes style*/
+	"base:Services" -> "base:Airline_Company" [ label = "rdfs:subClassOf" ];
+	"base:Owner" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:SeatClass" -> "base:Customer_Flight_Review" [ label = "rdfs:subClassOf" ];
+	"base:PremiunEconomyClass" -> "base:SeatClass" [ label = "rdfs:subClassOf" ];
+	"base:Airplane" -> "base:Vehicle" [ label = "rdfs:subClassOf" ];
+	"base:Professional_Review" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:No" -> "base:Recommend" [ label = "rdfs:subClassOf" ];
+	"base:Traveller" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:Customer" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Flight_Date" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Ariplane_Fleet" -> "base:Airline_Company" [ label = "rdfs:subClassOf" ];
+	"base:Age" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:BusinessClass" -> "base:SeatClass" [ label = "rdfs:subClassOf" ];
+	"base:Nationality" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:Couple_Leisure" -> "base:Leisure_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Country" -> "base:Continent" [ label = "rdfs:subClassOf" ];
+	"base:Title" -> "base:Customer_Flight_Review" [ label = "rdfs:subClassOf" ];
+	"base:Description" -> "base:Customer_Flight_Review" [ label = "rdfs:subClassOf" ];
+	"base:Day" -> "base:Date" [ label = "rdfs:subClassOf" ];
+	"base:Airline_Company" -> "base:Company" [ label = "rdfs:subClassOf" ];
+	"base:Flight_Service" -> "base:Services" [ label = "rdfs:subClassOf" ];
+	"base:Recommend" -> "base:Customer_Flight_Review" [ label = "rdfs:subClassOf" ];
+	"base:Flight" -> "base:Flight_Service" [ label = "rdfs:subClassOf" ];
+	"base:Ticket" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:FirstClass" -> "base:SeatClass" [ label = "rdfs:subClassOf" ];
+	"base:Address" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:Year" -> "base:Date" [ label = "rdfs:subClassOf" ];
+	"base:Destination" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Month" -> "base:Date" [ label = "rdfs:subClassOf" ];
+	"base:Solo_Leisure" -> "base:Leisure_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:City" -> "base:Country" [ label = "rdfs:subClassOf" ];
+	"base:Review_Owner" -> "base:Customer_Flight_Review" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A" -> "base:Recommend" [ label = "rdfs:subClassOf" ];
+	"base:EconomyClass" -> "base:SeatClass" [ label = "rdfs:subClassOf" ];
+	"base:Origin" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Yes" -> "base:Recommend" [ label = "rdfs:subClassOf" ];
+	"base:Customer_Review" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Business_Traveller" -> "base:Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Leisure_Traveller" -> "base:Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Customer_Flight_Review" -> "base:Customer_Review" [ label = "rdfs:subClassOf" ];
+	"base:Family_Leisure" -> "base:Leisure_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Flight_Rate" -> "base:Customer_Flight_Review" [ label = "rdfs:subClassOf" ];
+
+}
