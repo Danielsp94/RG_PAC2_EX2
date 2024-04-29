@@ -9,7 +9,11 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:PAC2_2="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2">
+        <rdfs:comment>An ontology that describes the surveys performed to flight customers.</rdfs:comment>
+        <rdfs:title>SurveysPAC2_EX2_dsorianopons</rdfs:title>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
     
 
 
@@ -27,6 +31,12 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#title -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#title"/>
     
 
 
@@ -734,7 +744,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737">
         <rdf:type rdf:resource="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane"/>
-        <rdfs:comment>Vuelo Boeing 737 del 13/12/2022 organizado por la compañia Ryanair.</rdfs:comment>
+        <rdfs:comment>Airplane Name</rdfs:comment>
         <rdfs:label>Boeing 737</rdfs:label>
     </owl:NamedIndividual>
     
@@ -808,7 +818,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022">
         <rdf:type rdf:resource="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date"/>
         <rdfs:comment>A date</rdfs:comment>
-        <rdfs:label>13/12/2022</rdfs:label>
+        <rdfs:label>13-12-2022</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -824,8 +834,8 @@
         <PAC2_2:hasFlightDate rdf:resource="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022"/>
         <PAC2_2:hasOrigin rdf:resource="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante"/>
         <PAC2_2:hasOwner rdf:resource="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair"/>
-        <rdfs:comment>Flight Boeing 737 owned by Ryanair, with origin in Albacete and Standsted destination. On 13/12/2022.</rdfs:comment>
-        <rdfs:label>Boeing737 Albacete-Standsted 13/12/2022</rdfs:label>
+        <rdfs:comment>Flight Boeing 737 owned by Ryanair, with origin in Albacete and Standsted destination. On 13-12-2022</rdfs:comment>
+        <rdfs:label>Boeing737 Albacete-Standsted 13-12-2022</rdfs:label>
     </owl:NamedIndividual>
     
 
