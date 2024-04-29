@@ -9,11 +9,7 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:PAC2_2="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2">
-        <rdfs:comment>Author: Daniel Soriano Pons
-University: Universitat Oberta de Catalunya</rdfs:comment>
-        <rdfs:label>Enquestes de satisfacció dels vols dsorianopons</rdfs:label>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2"/>
     
 
 
