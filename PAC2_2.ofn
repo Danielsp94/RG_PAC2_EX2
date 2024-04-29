@@ -1,0 +1,562 @@
+Prefix(:=<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2>
+Annotation(rdfs:comment "Author: Daniel Soriano Pons
+University: Universitat Oberta de Catalunya")
+
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Address>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Age>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ariplane_Fleet>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#BusinessClass>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Business_Traveller>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Company>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Continent>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Day>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Description>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Destination>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#EconomyClass>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#FirstClass>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Date>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Rate>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Service>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Month>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Nationality>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Origin>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Owner>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#PremiunEconomyClass>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Professional_Review>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review_Owner>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Services>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ticket>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Title>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Vehicle>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Year>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes>))
+Declaration(Class(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAirplane>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasNationality>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass>))
+Declaration(DataProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge>))
+Declaration(DataProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat13B>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat2A>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Standsted>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22>))
+Declaration(AnnotationProperty(rdfs:sameAs))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAirplane> (<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAirplane>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAirplane> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAirplane> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> (hasCustomer)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> "Indicates the customers in the flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> "hasCustomer")
+InverseObjectProperties(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight>)
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> (hasDestination)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> "The city of destination of the flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> "hasDestination")
+FunctionalObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination>)
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight> (hasFlight)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight> "Indicates the flight of the passenger.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight> "hasFlight")
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate> (hasFlightDate)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate> "Date of flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate> "hasFlightDate")
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasNationality> (hasNationality)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasNationality> "Country of birth of the person")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasNationality> "hasNationality")
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasNationality> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasNationality> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> (hasOrigin)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> "City of origin of the flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> "hasOrigin")
+FunctionalObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin>)
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> (hasOwner)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> "The owner of the airline in charge of the flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> "hasOwner")
+FunctionalObjectProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner>)
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company>)
+
+# Object Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> (hasSeatClass)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> "Indicates the class seat of the passenger")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> "hasSeatClass")
+ObjectPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+ObjectPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> (hasAge)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> "Indicates the age of the person")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> "hasAge")
+SubDataPropertyOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> owl:topDataProperty)
+FunctionalDataProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge>)
+DataPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>)
+DataPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> (hasRating)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> "Rating of the flight for that customer review")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> "hasRating")
+FunctionalDataProperty(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating>)
+DataPropertyDomain(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+DataPropertyRange(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> xsd:integer)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Address> (Address)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Address> "Address where the person lives")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Address> "Address")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Address> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Age> (<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Age>)
+
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Age> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company> (Airplane Company)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company> "A company or organisation that his main activity is to provide flights using ariplanes")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company> "Airplane Company")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Company>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane> (Airplane)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane> "A airplane.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane> "Airplane")
+AnnotationAssertion(rdfs:sameAs <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane> "https://dbpedia.org/page/Airplane")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Vehicle>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ariplane_Fleet> (Airplane Fleet)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ariplane_Fleet> "All the airplanes that are owned by the airplane company")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ariplane_Fleet> "Airplane Fleet")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ariplane_Fleet> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#BusinessClass> (Business Class)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#BusinessClass> "Class designed for Business Travelers")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#BusinessClass> "Business Class")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#BusinessClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Business_Traveller> (Business Traveller)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Business_Traveller> "Traveller that has business as their purpouse.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Business_Traveller> "Business Traveller")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Business_Traveller> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Business_Traveller> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> (City)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> "A city")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> "City")
+AnnotationAssertion(rdfs:sameAs <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> "https://dbpedia.org/page/City")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Company> (Company)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Company> "A company or organisation")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Company> "Company")
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Continent> (Continent)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Continent> "A continent")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Continent> "Continent")
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country> (Country)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country> "A country")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country> "Country")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Country> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Continent>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure> (Couple Leisure)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure> "Travellers that are travelling as a couple.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure> "Couple Leisure")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Couple_Leisure> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer> (Customer)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer> "Person that is taking  the flight.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer> "Customer")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer> ObjectSomeValuesFrom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller>))
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review> (<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review> "A review performed by a customer on a flight service.")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review> (Customer Review)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review> "A review performed by a customer.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review> "Customer Review")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Professional_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date> (Date)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date> "A date")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date> "Date")
+AnnotationAssertion(rdfs:sameAs <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date> "https://dbpedia.org/page/Date")
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Day> (Day)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Day> "A day of the month")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Day> "Day")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Day> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Description> (Description)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Description> "A description to provide details of the review performed")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Description> "Description")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Description> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Destination> (Destination)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Destination> "A city where the airplane is supposed to arrive at the end of the flight.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Destination> "Destination")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Destination> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Destination> ObjectExactCardinality(1 <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City>))
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#EconomyClass> (EconomyClass)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#EconomyClass> "Seats with the lowest price")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#EconomyClass> "EconomyClass")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#EconomyClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure> (Family Leisure)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure> "Travellers that are travelling with their family.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure> "Family Leisure")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Family_Leisure> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#FirstClass> (FirstClass)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#FirstClass> "Premium seat class")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#FirstClass> "FirstClass")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#FirstClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight> (Flight)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight> "A flight between two cities")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight> "Flight")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Service>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Date> (Flight Date)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Date> "Date of the flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Date> "Flight Date")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Date> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Rate> (Flight Rate)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Rate> "A rate to calificate the flight service.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Rate> "Flight Rate")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Rate> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Service> (Flight Service)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Service> "A flight service provided")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Service> "Flight Service")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight_Service> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Services>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller> (Leisure Traveller)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller> "Traveller that has leisure as their purpouse.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller> "Leisure Traveller")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Month> (Month)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Month> "A month of the year")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Month> "Month")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Month> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Nationality> (Nationality)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Nationality> "Country of birth of the person")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Nationality> "Nationality")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Nationality> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> (No)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> "No")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> "No")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Origin> (Origin)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Origin> "The city from where the airplanes starts its flight.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Origin> "Origin")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Origin> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Origin> ObjectExactCardinality(1 <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City>))
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Owner> (Owner)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Owner> "Company owner of the flight provided.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Owner> "Owner")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Owner> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Owner> ObjectExactCardinality(1 <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company>))
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person> (Person)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person> "Person")
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#PremiunEconomyClass> (PremiumEconomyClass)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#PremiunEconomyClass> "Economic seats but with some more space")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#PremiunEconomyClass> "PremiumEconomyClass")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#PremiunEconomyClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Professional_Review> (Professional Review)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Professional_Review> "A review performed by a professional.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Professional_Review> "Professional Review")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Professional_Review> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend> (Recommend)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend> "Whether a customer would recommend or not a flight")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend> "Recommend")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review> (Review)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review> "A review performed")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review> "Review")
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review_Owner> (Review Owner)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review_Owner> "The owner of the review")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review_Owner> "Review Owner")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review_Owner> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass> (SeatClass)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass> "Class of the seat")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass> "SeatClass")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#SeatClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Services> (Services)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Services> "All the services that are owned by the airplane ccompany")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Services> "Services")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Services> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure> (Solo Leisure)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure> "Travellers that are travelling alone.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure> "Solo Leisure")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Solo_Leisure> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Leisure_Traveller>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ticket> (Ticket)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ticket> "Item to be sold to the customers of the flight, that allows the person to use the service.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ticket> "Ticket")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ticket> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Title> (Title)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Title> "A title to summarize the review")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Title> "Title")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Title> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Flight_Review>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller> (Traveller)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller> "Person that is travelling")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller> "Traveller")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Traveller> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Vehicle> (Vehicle)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Vehicle> "A vehicle")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Vehicle> "Vehicle")
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Year> (Year)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Year> "A year")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Year> "Year")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Year> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> (Yes)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> "Yes")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> "Yes")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend>)
+DisjointClasses(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A>)
+
+# Class: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A> (N/A)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A> "Not applicable")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A> "N/A")
+SubClassOf(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#N/A> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Recommend>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert> (Albert)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert> "A person.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert> "Albert")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlight> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22>)
+DataPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Albert> "6"^^xsd:integer)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante> (Albacete)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante> "A city")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante> "Albacete")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737> (Boeing 737)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737> "Vuelo Boeing 737 del 13/12/2022 organizado por la compañia Ryanair.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737> "Boeing 737")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airplane> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David> (David)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David> "A person")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David> "David")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David>)
+DataPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAge> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David> "28"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David> "7"^^xsd:integer)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta> (Marta)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta> "A person")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta> "Marta")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Person> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat2A>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair> (Ryanair)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair> "An airplane company")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair> "Ryanair")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Airline_Company> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat13B> (Seat13B)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat13B> "A seat of a airplane")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat13B> "Seat13B")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#EconomyClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat13B>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat2A> (Seat2A)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat2A> "A seat of a airplane")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat2A> "Seat2A")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#FirstClass> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Seat2A>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Standsted> (Standsted)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Standsted> "A city.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Standsted> "Standsted")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#City> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Standsted>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022> (13/12/2022)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022> "A date")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022> "13/12/2022")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Date> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022>)
+
+# Individual: <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> (Boeing737 Albacete-Standsted 13/12/2022)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> "Flight Boeing 737 owned by Ryanair, with origin in Albacete and Standsted destination. On 13/12/2022.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> "Boeing737 Albacete-Standsted 13/12/2022")
+ClassAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Flight> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasAirplane> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing_737>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#David>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasCustomer> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Marta>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasDestination> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Standsted>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasFlightDate> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#13/12/2022>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOrigin> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Alicante>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasOwner> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Boeing737_Albacete_Standsted_13/12/22> <http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Ryanair>)
+
+
+DLSafeRule(Body(ObjectPropertyAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasSeatClass> Variable(<urn:swrl:var#c>) Variable(<urn:swrl:var#FirstClass>)) ClassAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review> Variable(<urn:swrl:var#c>)))Head(ClassAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> Variable(<urn:swrl:var#c>))))
+DLSafeRule(Body(ClassAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review> Variable(<urn:swrl:var#c>)) DataPropertyAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> Variable(<urn:swrl:var#c>) Variable(<urn:swrl:var#n>)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThan> Variable(<urn:swrl:var#n>) "5"^^xsd:integer))Head(ClassAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Yes> Variable(<urn:swrl:var#c>))))
+DLSafeRule(Body(ClassAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review> Variable(<urn:swrl:var#c>)) DataPropertyAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating> Variable(<urn:swrl:var#c>) Variable(<urn:swrl:var#n>)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#lessThan> Variable(<urn:swrl:var#n>) "6"^^xsd:integer))Head(ClassAtom(<http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#No> Variable(<urn:swrl:var#c>))))
+)
