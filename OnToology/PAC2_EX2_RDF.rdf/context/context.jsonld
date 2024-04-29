@@ -6,6 +6,9 @@
     "Age" : {
       "@id" : "http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Age"
     },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "hasRating" : {
       "@id" : "http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#hasRating",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -126,6 +129,9 @@
     },
     "Review_Owner" : {
       "@id" : "http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Review_Owner"
+    },
+    "title" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#title"
     },
     "Customer_Review" : {
       "@id" : "http://www.semanticweb.org/dani2/ontologies/2024/3/PAC2_2#Customer_Review"
